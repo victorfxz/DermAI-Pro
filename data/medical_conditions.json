@@ -1,0 +1,385 @@
+{
+  "medical_conditions": {
+    "melanoma": {
+      "name": "Melanoma",
+      "category": "malignant",
+      "urgency": "high",
+      "description": "Most dangerous form of skin cancer arising from melanocytes",
+      "clinical_features": [
+        "Asymmetric lesion",
+        "Irregular borders",
+        "Color variation",
+        "Diameter >6mm",
+        "Evolving characteristics"
+      ],
+      "risk_factors": [
+        "UV exposure",
+        "Fair skin",
+        "Multiple moles",
+        "Family history",
+        "Immunosuppression"
+      ],
+      "recommendations": [
+        "Urgent dermatologist consultation",
+        "Biopsy for definitive diagnosis",
+        "Complete skin examination",
+        "Staging if confirmed"
+      ],
+      "prognosis": "Excellent if caught early, poor if metastatic",
+      "icd10": "C43"
+    },
+    "basal_cell_carcinoma": {
+      "name": "Basal Cell Carcinoma",
+      "category": "malignant",
+      "urgency": "medium",
+      "description": "Most common form of skin cancer, locally invasive",
+      "clinical_features": [
+        "Pearly or waxy appearance",
+        "Central ulceration",
+        "Rolled borders",
+        "Telangiectasias",
+        "Slow growth"
+      ],
+      "risk_factors": [
+        "Chronic sun exposure",
+        "Fair skin",
+        "Male gender",
+        "Advanced age",
+        "Radiation exposure"
+      ],
+      "recommendations": [
+        "Dermatologist evaluation",
+        "Surgical excision",
+        "Mohs surgery if indicated",
+        "Sun protection counseling"
+      ],
+      "prognosis": "Excellent with treatment, rarely metastasizes",
+      "icd10": "C44"
+    },
+    "squamous_cell_carcinoma": {
+      "name": "Squamous Cell Carcinoma",
+      "category": "malignant",
+      "urgency": "high",
+      "description": "Second most common skin cancer, can metastasize",
+      "clinical_features": [
+        "Scaly, rough texture",
+        "Ulceration",
+        "Rapid growth",
+        "Bleeding",
+        "Firm nodule"
+      ],
+      "risk_factors": [
+        "Chronic sun exposure",
+        "Actinic keratoses",
+        "Immunosuppression",
+        "HPV infection",
+        "Chronic wounds"
+      ],
+      "recommendations": [
+        "Urgent dermatologist consultation",
+        "Biopsy confirmation",
+        "Surgical excision",
+        "Lymph node evaluation"
+      ],
+      "prognosis": "Good if caught early, can metastasize",
+      "icd10": "C44"
+    },
+    "actinic_keratosis": {
+      "name": "Actinic Keratosis",
+      "category": "pre_malignant",
+      "urgency": "medium",
+      "description": "Pre-cancerous lesions from chronic sun damage",
+      "clinical_features": [
+        "Rough, scaly patches",
+        "Sandpaper texture",
+        "Pink to brown color",
+        "Sun-exposed areas",
+        "Multiple lesions"
+      ],
+      "risk_factors": [
+        "Chronic sun exposure",
+        "Fair skin",
+        "Advanced age",
+        "Male gender",
+        "Outdoor occupation"
+      ],
+      "recommendations": [
+        "Dermatologist evaluation",
+        "Topical treatments",
+        "Cryotherapy",
+        "Sun protection",
+        "Regular monitoring"
+      ],
+      "prognosis": "5-10% risk of progression to SCC",
+      "icd10": "L57.0"
+    },
+    "melanocytic_nevus": {
+      "name": "Melanocytic Nevus",
+      "category": "benign",
+      "urgency": "low",
+      "description": "Common benign moles and pigmented lesions",
+      "clinical_features": [
+        "Uniform color",
+        "Symmetric shape",
+        "Regular borders",
+        "Stable size",
+        "Smooth surface"
+      ],
+      "risk_factors": [
+        "Genetic predisposition",
+        "Sun exposure",
+        "Fair skin",
+        "Hormonal changes"
+      ],
+      "recommendations": [
+        "Regular self-examination",
+        "Annual skin checks",
+        "Monitor for changes",
+        "Sun protection",
+        "Photography for tracking"
+      ],
+      "prognosis": "Benign, very low malignant potential",
+      "icd10": "D22"
+    },
+    "seborrheic_keratosis": {
+      "name": "Seborrheic Keratosis",
+      "category": "benign",
+      "urgency": "low",
+      "description": "Common benign age-related skin growths",
+      "clinical_features": [
+        "Waxy, stuck-on appearance",
+        "Brown to black color",
+        "Rough surface",
+        "Well-demarcated",
+        "Multiple lesions"
+      ],
+      "risk_factors": [
+        "Advanced age",
+        "Genetic predisposition",
+        "Sun exposure",
+        "Hormonal factors"
+      ],
+      "recommendations": [
+        "Clinical confirmation",
+        "Removal if irritated",
+        "Cosmetic removal option",
+        "Routine monitoring"
+      ],
+      "prognosis": "Benign, no malignant potential",
+      "icd10": "L82"
+    },
+    "dermatofibroma": {
+      "name": "Dermatofibroma",
+      "category": "benign",
+      "urgency": "low",
+      "description": "Benign fibrous skin nodules",
+      "clinical_features": [
+        "Firm nodule",
+        "Brown to pink color",
+        "Dimple sign positive",
+        "Slow growth",
+        "Usually single"
+      ],
+      "risk_factors": [
+        "Minor trauma",
+        "Insect bites",
+        "Female gender",
+        "Young to middle age"
+      ],
+      "recommendations": [
+        "Clinical observation",
+        "Biopsy if atypical",
+        "Surgical removal if symptomatic",
+        "Routine follow-up"
+      ],
+      "prognosis": "Benign, no malignant potential",
+      "icd10": "D23"
+    },
+    "vascular_lesion": {
+      "name": "Vascular Lesion",
+      "category": "benign",
+      "urgency": "low",
+      "description": "Blood vessel related skin lesions",
+      "clinical_features": [
+        "Red to purple color",
+        "Blanching with pressure",
+        "Various sizes",
+        "Smooth surface",
+        "Well-demarcated"
+      ],
+      "risk_factors": [
+        "Age",
+        "Sun exposure",
+        "Hormonal changes",
+        "Genetic factors"
+      ],
+      "recommendations": [
+        "Clinical evaluation",
+        "Laser treatment if desired",
+        "Cosmetic removal options",
+        "Routine monitoring"
+      ],
+      "prognosis": "Benign, cosmetic concern mainly",
+      "icd10": "D18"
+    },
+    "monkeypox": {
+      "name": "Monkeypox",
+      "category": "infectious",
+      "urgency": "high",
+      "description": "Viral infection with characteristic skin lesions",
+      "clinical_features": [
+        "Vesicular rash",
+        "Umbilicated lesions",
+        "Fever and malaise",
+        "Lymphadenopathy",
+        "Centrifugal distribution"
+      ],
+      "risk_factors": [
+        "Animal contact",
+        "Travel to endemic areas",
+        "Close contact with infected person",
+        "Immunocompromised state"
+      ],
+      "recommendations": [
+        "Immediate isolation",
+        "Public health notification",
+        "Supportive care",
+        "Contact tracing",
+        "Antiviral therapy if severe"
+      ],
+      "prognosis": "Usually self-limited, can be severe",
+      "icd10": "B04"
+    },
+    "chickenpox": {
+      "name": "Chickenpox",
+      "category": "infectious",
+      "urgency": "medium",
+      "description": "Varicella-zoster virus infection",
+      "clinical_features": [
+        "Vesicular rash",
+        "Crops of lesions",
+        "Pruritic",
+        "Fever",
+        "Malaise"
+      ],
+      "risk_factors": [
+        "No prior vaccination",
+        "Close contact exposure",
+        "Immunocompromised state",
+        "Pregnancy"
+      ],
+      "recommendations": [
+        "Isolation until crusted",
+        "Symptomatic treatment",
+        "Antiviral if high risk",
+        "Vaccination prevention"
+      ],
+      "prognosis": "Usually mild in children, can be severe in adults",
+      "icd10": "B01"
+    },
+    "measles": {
+      "name": "Measles",
+      "category": "infectious",
+      "urgency": "high",
+      "description": "Highly contagious viral infection",
+      "clinical_features": [
+        "Maculopapular rash",
+        "Koplik spots",
+        "High fever",
+        "Cough and coryza",
+        "Conjunctivitis"
+      ],
+      "risk_factors": [
+        "No vaccination",
+        "Travel to endemic areas",
+        "Immunocompromised state",
+        "Vitamin A deficiency"
+      ],
+      "recommendations": [
+        "Immediate isolation",
+        "Public health notification",
+        "Supportive care",
+        "Vitamin A supplementation",
+        "Vaccination prevention"
+      ],
+      "prognosis": "Usually self-limited, can have complications",
+      "icd10": "B05"
+    },
+    "hand_foot_mouth": {
+      "name": "Hand, Foot, and Mouth Disease",
+      "category": "infectious",
+      "urgency": "medium",
+      "description": "Viral infection common in children",
+      "clinical_features": [
+        "Vesicular lesions",
+        "Hands, feet, mouth involvement",
+        "Fever",
+        "Sore throat",
+        "Malaise"
+      ],
+      "risk_factors": [
+        "Young age",
+        "Daycare attendance",
+        "Close contact",
+        "Poor hygiene"
+      ],
+      "recommendations": [
+        "Symptomatic treatment",
+        "Isolation while febrile",
+        "Good hygiene",
+        "Hydration maintenance"
+      ],
+      "prognosis": "Self-limited, usually mild",
+      "icd10": "B08.4"
+    },
+    "cowpox": {
+      "name": "Cowpox",
+      "category": "infectious",
+      "urgency": "medium",
+      "description": "Viral infection from animal contact",
+      "clinical_features": [
+        "Vesicular lesions",
+        "Ulceration",
+        "Local lymphadenopathy",
+        "Fever",
+        "Malaise"
+      ],
+      "risk_factors": [
+        "Animal contact",
+        "Rural environment",
+        "Veterinary work",
+        "Immunocompromised state"
+      ],
+      "recommendations": [
+        "Wound care",
+        "Antibiotic prophylaxis",
+        "Symptomatic treatment",
+        "Animal source identification"
+      ],
+      "prognosis": "Usually self-limited",
+      "icd10": "B08.0"
+    },
+    "healthy_skin": {
+      "name": "Healthy Skin",
+      "category": "normal",
+      "urgency": "low",
+      "description": "Normal, healthy skin appearance",
+      "clinical_features": [
+        "Uniform color",
+        "Smooth texture",
+        "Good elasticity",
+        "No lesions",
+        "Normal pigmentation"
+      ],
+      "risk_factors": [],
+      "recommendations": [
+        "Continue routine skin care",
+        "Sun protection",
+        "Regular self-examination",
+        "Annual skin checks if high risk"
+      ],
+      "prognosis": "Excellent",
+      "icd10": "Z00.00"
+    }
+  }
+}

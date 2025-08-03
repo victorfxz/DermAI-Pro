@@ -1,0 +1,116 @@
+# DermAI Pro - Configuration Settings
+# Professional Dermatology AI System Configuration
+
+# Application Settings
+app:
+  name: "DermAI Pro"
+  version: "1.0.0"
+  description: "Professional Dermatology AI System"
+  author: "DermAI Development Team"
+
+# AI Model Configuration
+ai_model:
+  name: "gemma3n:e4b"
+  provider: "ollama"
+  url: "http://localhost:11434"
+  timeout: 300  # 5 minutes
+  temperature: 0.7
+  top_p: 0.9
+  top_k: 40
+  max_tokens: 1000
+
+# Analysis Settings
+analysis:
+  confidence_threshold: 0.05  # Minimum probability to show condition
+  max_conditions_display: 8   # Maximum conditions to display
+  max_recommendations: 6      # Maximum clinical recommendations
+  
+  # Lesion Detection
+  lesion_detection:
+    min_area: 50      # Minimum lesion area in pixels
+    max_area: 50000   # Maximum lesion area in pixels
+    max_aspect_ratio: 5.0  # Maximum width/height ratio
+    
+  # Image Processing
+  image_processing:
+    max_display_width: 500
+    max_display_height: 400
+    assumed_dpi: 300  # For size estimation
+
+# Medical Settings
+medical:
+  # ABCDE Criteria Thresholds
+  abcde_thresholds:
+    asymmetry_circularity: 0.6    # Below this = high asymmetry
+    border_circularity: 0.5       # Below this = irregular border
+    color_variation_std: 30       # Above this = high color variation
+    diameter_mm_concern: 6        # Above this = concerning diameter
+    
+  # Risk Assessment
+  risk_assessment:
+    high_risk_threshold: 0.7      # Probability threshold for high risk
+    medium_risk_threshold: 0.4    # Probability threshold for medium risk
+
+# UI Settings
+ui:
+  theme: "light"
+  color_theme: "blue"
+  window_size: "1400x900"
+  min_window_size: "1200x800"
+  
+  # Colors (Professional Medical Theme)
+  colors:
+    primary: "#2E86AB"      # Medical blue
+    secondary: "#A23B72"    # Accent purple
+    success: "#28A745"      # Success green
+    warning: "#FFC107"      # Warning yellow
+    danger: "#DC3545"       # Danger red
+    background: "#F8F9FA"   # Light background
+    surface: "#FFFFFF"      # White surface
+    text_primary: "#212529" # Dark text
+    text_secondary: "#6C757D" # Gray text
+    border: "#DEE2E6"       # Light border
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/dermai_pro.log"
+  max_file_size: "10MB"
+  backup_count: 5
+
+# File Handling
+files:
+  supported_formats:
+    - "jpg"
+    - "jpeg" 
+    - "png"
+    - "bmp"
+    - "tiff"
+    - "tif"
+  
+  max_file_size: "50MB"
+  default_image_dir: "~/Pictures"
+
+# Performance Settings
+performance:
+  max_processing_time: 600  # 10 minutes maximum
+  thread_timeout: 300       # 5 minutes thread timeout
+  memory_limit: "2GB"       # Maximum memory usage
+
+# Security Settings
+security:
+  local_processing_only: true  # Never send data to external servers
+  log_sensitive_data: false    # Don't log patient data
+  auto_clear_results: false    # Keep results until manually cleared
+
+# Medical Disclaimer
+disclaimer:
+  text: |
+    This AI analysis is for professional medical assistance only.
+    Results should always be validated by qualified dermatologists.
+    Not intended for self-diagnosis or replacing professional medical advice.
+    Consult a healthcare provider for definitive diagnosis and treatment.
+  
+  show_on_startup: true
+  require_acknowledgment: true
