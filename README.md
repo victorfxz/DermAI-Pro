@@ -81,7 +81,6 @@ python main.py
 
 ### **🧪 Scripts Disponíveis**:
 - `install.py` - Instalação completa com validação
-- `create_test_images.py` - Gerar imagens de teste
 - `main.py` - Aplicativo principal
 
 ---
