@@ -48,7 +48,7 @@
 ### **⚡ Instalação Rápida (Recomendada)**:
 ```bash
 # Navegue para o diretório
-cd C:\Users\(`seu usuário`)\(`caminho do arquivo/pasta`)
+cd C:\Users\(`seu usuário`)\(`pasta`)
 
 # Execute instalação automática
 python main.py
