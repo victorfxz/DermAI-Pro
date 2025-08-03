@@ -191,4 +191,4 @@ python main.py
 
 ## 🎯 **DermAI Pro - Diagnóstico Dermatológico Inteligente**
 
-**🏥 Desenvolvido para profissionais de saúde que buscam precisão, confiabilidade e inovação no diagnóstico dermatológico assistido por IA.**
+**🏥 Desenvolvido para o Hackathon do Kaggle/Google - The Gemma 3n Impact Challenge**
